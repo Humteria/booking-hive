@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+    api:
+        image: msnet6
+        build:
+            context: ./backend/BookingHive.Api
+            dockerfile: ./Dockerfile
+        ports:
+            - 5010:5010
+    web:
+        image: angular
+        build:
+            context: ./frontend
+            dockerfile: ./Dockerfile
+        ports:
+            - 4200:80
