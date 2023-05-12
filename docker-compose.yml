@@ -1,17 +1,15 @@
-version: "3.8"
+version: '4.19'
 
 services:
-    api:
-        image: msnet6
-        build:
-            context: ./backend/BookingHive.Api
-            dockerfile: ./Dockerfile
+    backend-api:
+        image: backend-api
+        build: 
+            context: https://github.com/Humteria/booking-hive-backend.git#main
+            dockerfile: ./BookingHive.Api/Dockerfile
         ports:
-            - 5010:5010
-    web:
-        image: angular
-        build:
-            context: ./frontend
-            dockerfile: ./Dockerfile
+            - "5010:5020"
+    frontend:
+        image: frontend
+        build: https://github.com/Humteria/booking-hive-frontend.git#main
         ports:
-            - 4200:80
+          - 8000:4200
