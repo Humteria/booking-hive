@@ -56,7 +56,7 @@ Book Services
 | User | Goal |
 | ---- | ---- |
 | Anonymous User | - Login (UC1)<br>- View (UC2.1) & book (UC2.2) publicly visible Services |
-| Customer /<br>Logged in User | - View (UC2.1) & book (UC2.2) Services<br>- Starting Page (UC3)<br>&emsp;- View all booked Services (past/future) (UC3.1)<br>&emsp;- Switch to supplier-account (UC3.2)<br>&emsp;- Account Settings (UC3.3)<br>- View Messages (UC4) |
+| Customer /<br>Logged in User | - View (UC2.1) & book (UC2.2) Services<br>- Starting Page (UC3)<br>&emsp;- View all booked Services (past/future) (UC3.1)<br>&emsp;- Switch to supplier-account (UC3.2)<br>&emsp;- Account Settings (UC3.3)<br>- View Messages (UC4)<br>- View Calender(UC6) |
 | Organisation | - Create (UC5.1) & Manage (UC5.2) Services<br>- View Calender(s) (UC6)<br>- Manage employees (if employees are used) (UC7) |
 | Employee | - View own Calender (UC6)<br>- Manage assigned Services (UC5.2)<br>- View Messages (UC4) |
 | Independent individual | Same as Organisation & Employee combined |
