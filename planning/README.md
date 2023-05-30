@@ -15,4 +15,6 @@ Below are some diagrams shown, not all though. To see the entire details, enter 
 
 ## [Architecture](./architecture/)
 
+<img src="./architecture/layers.drawio.png" />
+
 <img src="./architecture/architecture.drawio.png" />
