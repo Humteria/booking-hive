@@ -1,0 +1,15 @@
+version: '4.19'
+
+services:
+    backend-api:
+        image: backend-api
+        build: 
+            context: https://github.com/Humteria/booking-hive-backend.git#main
+            dockerfile: ./BookingHive.Api/Dockerfile
+        ports:
+            - "5010:5020"
+    frontend:
+        image: frontend
+        build: https://github.com/Humteria/booking-hive-frontend.git#main
+        ports:
+          - 8000:4200
